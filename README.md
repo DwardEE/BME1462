@@ -50,14 +50,14 @@ We provide a small set of sample patches in: `sample_patches/`.
 These are sufficient to
 
 - Compute all quality metrics
-- Reproduce degradation experiments (blur and noise)
+- Reproduce degradation experiments
 - Visualize metric behavior
 
 The complete pipeline requires the full BigBrain dataset **(~20GB)**, which is not included in this repository but more data can be found [here]().
 
 ## Expected Results
 
-Using the provided sample patches, the following behaviors can be observed:
+Using the provided sample patches, the following behaviors should be observed:
 
 - Blur degradation → decreases high-frequency content → decreases quality metrics
 - Noise injection → increases high-frequency content → may artificially inflate metrics
