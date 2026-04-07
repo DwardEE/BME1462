@@ -1,2 +1,9 @@
 data/
 B20_1998.tif
+.codex
+__pycache__/
+adjacent_patch_heatmap_figures.ipynb
+gyral_sulcal_quality_comparison.ipynb
+spatial_heatmap_fft.ipynb
+tmp_registration_preview/
+visualize_B20_1988_aligned.ipynb
